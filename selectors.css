@@ -7,3 +7,46 @@ header li {
   display: inline-block;
   padding-left: 3%;
 }
+
+.active {
+  color: yellow;
+}
+
+.disabled {
+  color: grey;
+}
+
+a.disabled {
+  color: purple;
+}
+
+.red_text {
+  color: red;
+}
+
+.red_text + h4 {
+  background-color: red;
+}
+
+.blue_text {
+  color: blue;
+}
+
+.blue_text + h4 {
+  background-color: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.promo,
+.promo .disabled {
+  font-weight: 900;
+  color: gold;
+}
+
+footer input {
+  padding: 25px 0;
+}
