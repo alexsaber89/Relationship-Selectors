@@ -1,0 +1,9 @@
+header {
+  border: 1px solid black;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 3%;
+}
